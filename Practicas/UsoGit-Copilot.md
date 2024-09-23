@@ -8,7 +8,7 @@ Haz clic en Create repository.
 
 
 Paso 2: Configurar Git en tu Máquina Local
-Abre la terminal en tu Mac.
+Abre una terminal (en tu PC o desde VisualCode).
 Navega al directorio donde tienes tu archivo "Practica1-2.ipynb".
 
 
@@ -18,13 +18,10 @@ Paso 3: Inicializar el Repositorio Local y Conectar con GitHub
 - Realiza un commit con un mensaje descriptivo.
 - Conecta tu repositorio local con el repositorio remoto en GitHub. Reemplaza URL_DEL_REPOSITORIO con la URL de tu repositorio en GitHub.
 git remote add origin https://github.com/tu-usuario/tu-repositorio.git
+- Subir el Código al Repositorio Remoto
 
 
-Paso 4: Subir el Código al Repositorio Remoto
-Sube tu código al repositorio remoto en GitHub.
-
-
-#PASOS
+COMANDOS
 
 Inicializar el Repositorio Local: 
 
@@ -37,7 +34,7 @@ Agregar Archivos al Repositorio:
 Realizar un Commit:
 > git commit -m "Añadir archivo Practica1-2.ipynb"
 
-Conectar el Repositorio Local con el Remoto:
+Conectar el Repositorio Local con el Remoto (primera vez):
 
 > git remote add origin https://github.com/tu-usuario/tu-repositorio.git
 
@@ -54,12 +51,12 @@ git config --global user.name "Tu Nombre"
 git config --global user.email "tu-email@example.com"
 
 
-Paso 5: Agregar Colaboradores al Repositorio
+Paso 4: Agregar Colaboradores al Repositorio
 Vete a la página de su repositorio en GitHub.
 Hacer clic en la pestaña Settings.
 En el menú de la izquierda, seleccionar Collaborators.
 En la sección Collaborators, deben buscar tu nombre de usuario de GitHub (Malola2015) y hacer clic en Add collaborator.
 GitHub enviará una invitación que se deberá aceptar para tener acceso al repositorio.
 
-Paso 6: Compartir el Enlace del Repositorio
+Paso 5: Compartir el Enlace del Repositorio
 Se debe copiar la URL de su repositorio y enviar la URL por correo electrónico.

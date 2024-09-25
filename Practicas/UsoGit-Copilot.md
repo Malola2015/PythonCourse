@@ -28,7 +28,7 @@ Inicializar el Repositorio Local (si clonas el repositorio no tienes que hacerlo
 
 > git init
 
-Clonar el repositorio
+Clonar el repositorio (ojo, poner vuestra dirección del repositorio)
 
 > git clone https://github.com/Malola2015/PracsConGit.git
 

@@ -32,20 +32,23 @@ Clonar el repositorio (ojo, poner vuestra dirección del repositorio)
 
 > git clone https://github.com/Malola2015/PracsConGit.git
 
-Agregar un Archivo al Repositorio:
+Agregar una carpeta con varios archivos  o un único archivo al Repositorio. A continuación ambas opciones.
 
-> git add Practica1-2.ipynb
-
-O bien una carpeta con varios archivos
+Una carpeta con achivos sería:
 
 > git add P1/.
 
-Realizar un Commit:
+Y un único archivo:
+
+> git add Practica1-2.ipynb
+
+Realizar un commit:
+
 > git commit -m "Añadir archivo Practica1-2.ipynb"
 
-Subir el Código al Repositorio Remoto (mira si es main o master la rama correspondiente):
-> git push -u origin main
+Subir el código al repositorio remoto (mira si es main o master la rama correspondiente):
 
+> git push -u origin main
 
 Paso 5: Agregar Colaboradores al Repositorio
 Los alumnos deben ir a la página de su repositorio en GitHub.
@@ -53,3 +56,23 @@ Hacer clic en la pestaña Settings.
 En el menú de la izquierda, seleccionar Collaborators.
 En la sección Collaborators, deben buscar el nombre de usuario de GitHub (Malola2015) y hacer clic en Add collaborator.
 GitHub enviará una invitación
+
+Y ya está todo listo para usarlo. Como puede que tu compañero (o tu mismo) añada cosas sin decírtelo, no te olvides SIEMPRE de hacer:
+
+> git status
+> git pull
+
+Esas opciones te permitirán ver si hay cambios y estar sincronizado. Pero ojo, que git pull te sobreescribirá el fichero local.
+
+También puede ocurrir que necesites borrar ficheros o carpetas, para ello usa:
+
+> git rm Practica1-2.ipynb
+
+Y después no te olvides de hacer commit y push.
+
+
+
+
+
+
+

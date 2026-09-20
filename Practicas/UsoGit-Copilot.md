@@ -58,7 +58,7 @@ Aqui se escriben los comandos:
 **Paso 4**: Agregar Colaboradores al Repositorio
 - Debes ir a la página de tu repositorio en GitHub y hacer clic en la pestaña Settings.
 - En el menú de la izquierda, seleccionar Collaborators.
-- En la sección Collaborators, deben buscar el nombre de usuario de GitHub de tu compañero si no lo haces solo y a mi, si quieres que lo pueda ver (Malola2015) y hacer clic en Add collaborator.
+- En la sección Collaborators, deben buscar el nombre de usuario de GitHub de tu compañero si no lo haces solo y hacer clic en Add collaborator.
 - GitHub enviará una invitación.
 
 ## Otros comandos

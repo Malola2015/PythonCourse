@@ -16,7 +16,7 @@ https://docs.github.com/es/get-started/getting-started-with-git/set-up-git#setti
 
 **Paso 2**: Configurar Git en tu Máquina Local
 - Abre la terminal en tu PC.
-- Navega al directorio donde tienes tu archivo (Por ej. Practica1-2.ipynb).
+- Navega al directorio donde tienes tu archivo (Por ej. Practica1.ipynb).
 
 
 **Paso 3**: Inicializar el Repositorio Local y Conectar con GitHub

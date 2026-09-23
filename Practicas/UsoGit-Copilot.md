@@ -43,13 +43,13 @@ Aqui se escriben los comandos:
 
   > git add P1/.
 
-  Y un único archivo (cambia Practica1-2.ipynb a lo que tú consideres):
+  Y un único archivo (cambia Practica1.ipynb a lo que tú consideres):
 
-  > git add Practica1-2.ipynb
+  > git add Practica1.ipynb
 
 - Realizar un commit:
 
-  > git commit -m "Añadir archivo Practica1-2.ipynb"
+  > git commit -m "Añadir archivo Practica1.ipynb"
 
 - Subir el código al repositorio remoto (mira si es main o master la rama correspondiente):
 
